@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>รายละเอียด | วิทยาลัยเทคนิคนางรอง</title>
+  <meta name="description" content="วิทยาลัยเทคนิคนางรอง อ.นางรอง จ.บุรีรัมย์ รายละเอียด จุดเด่น แผนกวิชา และภาพบรรยากาศ">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="theme.js"></script>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container">
+      <span>📍 1 ถ.บ้านเก่าแพงพวย ต.นางรอง อ.นางรอง จ.บุรีรัมย์ 31110</span>
+      <span>☎ 0-4463-1556, 0-4463-2318</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <!-- โลโก้: ใส่ไฟล์ไว้ที่ images/logo.png (ถ้ายังไม่มี จะแสดงตัวอักษร "นร") -->
+        <div class="brand-mark"><span>นร</span><img src="home.jpg" alt="โลโก้วิทยาลัยเทคนิคนางรอง" onerror="this.remove()"></div>
+        <div class="brand-text">
+          <strong>วิทยาลัยเทคนิคนางรอง</strong>
+          <span>Nang Rong Technical College</span>
+        </div>
+      </a>
+      <button class="theme-btn" id="themeBtn" type="button" aria-label="เปลี่ยนเป็นโหมดมืด">🌙</button>
+      <button class="menu-btn" aria-label="เปิดเมนู" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
+      <nav class="nav" id="nav">
+        <a href="index.html" class="active">รายละเอียด</a>
+        <a href="map.html">แผนที่</a>
+        <a href="contact.html">ข้อมูลติดต่อ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="hero">
+      <div class="container">
+        <div>
+          <span class="eyebrow">สถาบันอาชีวศึกษา จังหวัดบุรีรัมย์</span>
+          <h1>เรียนรู้ทักษะวิชาชีพ<br>สร้าง<em>อนาคต</em>ที่ก้าวไกล</h1>
+          <p>วิทยาลัยเทคนิคนางรอง (เดิมชื่อวิทยาลัยการอาชีพนางรอง) มุ่งจัดการอาชีวศึกษาให้มีคุณภาพ ผลิตกำลังคนที่มีสมรรถนะสูง มีคุณธรรม จริยธรรม</p>
+          <div class="hero-actions">
+            <a href="map.html" class="btn btn-primary">ดูแผนที่</a>
+            <a href="contact.html" class="btn btn-ghost">ข้อมูลติดต่อ</a>
+          </div>
+        </div>
+        <!-- รูปหลัก: ใส่ไฟล์ไว้ที่ images/hero.jpg -->
+        <div class="photo hero-photo" data-label="รูปหลัก: home.jpg">
+          <img src="logo.jpg" alt= "อาคารวิทยาลัยเทคนิคนางรอง" onerror="this.remove()">
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="container">
+        <div class="section-head">
+          <h2>จุดเด่นของวิทยาลัย</h2>
+          <p>เรียนจริง ปฏิบัติจริง เพื่อให้พร้อมทั้งการทำงานและการศึกษาต่อ</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card"><div class="icon">🛠️</div><h3>เน้นปฏิบัติจริง</h3><p>เรียนทฤษฎีควบคู่การฝึกปฏิบัติในโรงฝึกงานและห้องปฏิบัติการของแต่ละแผนกวิชา</p></article>
+          <article class="card"><div class="icon">🤝</div><h3>ร่วมมือกับสถานประกอบการ</h3><p>ส่งเสริมการฝึกประสบการณ์วิชาชีพในสถานประกอบการ เพื่อเตรียมความพร้อมสู่การทำงาน</p></article>
+          <article class="card"><div class="icon">🎯</div><h3>ยกระดับสมรรถนะอาชีพ</h3><p>จัดทำโครงการและคู่มือพัฒนาสมรรถนะเชิงประกอบอาชีพของผู้เรียนในหลายแผนกวิชา</p></article>
+          <article class="card"><div class="icon">🌱</div><h3>คุณธรรม จริยธรรม</h3><p>หล่อหลอมผู้เรียนให้เป็นคนดี มีวินัย รับผิดชอบ และมีจิตอาสา</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>แผนกวิชา</h2>
+          <p>เลือกสายวิชาชีพที่ใช่สำหรับคุณ</p>
+        </div>
+        <div class="chips" style="justify-content:center">
+          <span class="chip">ช่างยนต์</span><span class="chip">ช่างกลโรงงาน</span><span class="chip">ช่างเชื่อมโลหะ</span>
+          <span class="chip">ช่างไฟฟ้ากำลัง</span><span class="chip">ช่างอิเล็กทรอนิกส์</span><span class="chip">เทคโนโลยีสารสนเทศ</span>
+          <span class="chip">การบัญชี</span><span class="chip">การตลาด</span><span class="chip">การโรงแรม</span>
+        </div>
+        <p style="text-align:center;color:var(--muted);font-size:14px;margin-top:12px">* ข้อมูลเบื้องต้น โปรดตรวจสอบกับวิทยาลัยอีกครั้ง</p>
+        <p style="text-align:center;margin-top:24px"><a href="departments.html" class="btn btn-primary">ดูแผนกวิชาทั้งหมด →</a></p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head">
+          <h2>ภาพบรรยากาศ</h2>
+          <p>ภาพกิจกรรมและบรรยากาศภายในวิทยาลัย</p>
+        </div>
+        <!-- แกลเลอรี: ใส่ไฟล์ images/gallery-1.jpg ถึง gallery-6.jpg
+             ต้องการเพิ่มรูป ให้คัดลอกบล็อก <div class="photo">…</div> ต่อท้ายได้เลย -->
+        <div class="gallery">
+          <div class="photo" data-label="images/gallery-1.jpg"><img src="m1.jpg" alt="ภาพกิจกรรม 1" loading="lazy" onerror="this.remove()"></div>
+          <div class="photo" data-label="images/gallery-2.jpg"><img src="m2.jpg" alt="ภาพกิจกรรม 2" loading="lazy" onerror="this.remove()"></div>
+          <div class="photo" data-label="images/gallery-3.jpg"><img src="m3.jpg" alt="ภาพกิจกรรม 3" loading="lazy" onerror="this.remove()"></div>
+          <div class="photo" data-label="images/gallery-4.jpg"><img src="m4.jpg" alt="ภาพกิจกรรม 4" loading="lazy" onerror="this.remove()"></div>
+          <div class="photo" data-label="images/gallery-5.jpg"><img src="m5.jpg" alt="ภาพกิจกรรม 5" loading="lazy" onerror="this.remove()"></div>
+          <div class="photo" data-label="images/gallery-6.jpg"><img src="m6.jpg" alt="ภาพกิจกรรม 6" loading="lazy" onerror="this.remove()"></div>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding-top:0">
+      <div class="container link-cards">
+        <a class="card" href="departments.html"><h3>🏫 แผนกวิชา</h3><p>ดูรายละเอียดและกรองตามประเภทวิชา</p><span class="go">เปิดหน้าแผนกวิชา →</span></a>
+        <a class="card" href="about.html"><h3>📖 แนะนำวิทยาลัย</h3><p>เกี่ยวกับวิทยาลัยและระบบสารสนเทศ</p><span class="go">เปิดหน้าแนะนำ →</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>วิทยาลัยเทคนิคนางรอง</h4>
+          <p>1 ถ.บ้านเก่าแพงพวย ต.นางรอง อ.นางรอง<br>จ.บุรีรัมย์ 31110</p>
+          <p>โทร 0-4463-1556, 0-4463-2318<br>โทรสาร 0-4463-2008</p>
+        </div>
+        <div>
+          <h4>เมนู</h4>
+          <ul>
+            <li><a href="index.html">รายละเอียด</a></li>
+            <li><a href="map.html">แผนที่</a></li>
+            <li><a href="contact.html">ข้อมูลติดต่อ</a></li>
+            <li><a href="departments.html">แผนกวิชา</a></li>
+            <li><a href="about.html">แนะนำวิทยาลัย</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>ลิงก์</h4>
+          <ul>
+            <li><a href="https://my.nrtech.ac.th/" target="_blank" rel="noopener">ระบบสารสนเทศศูนย์กลาง</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copy">© 2026 วิทยาลัยเทคนิคนางรอง</div>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>แผนกวิชา | วิทยาลัยเทคนิคนางรอง</title>
+  <meta name="description" content="แผนกวิชาของวิทยาลัยเทคนิคนางรอง ประเภทวิชาอุตสาหกรรม พาณิชยกรรม และอุตสาหกรรมท่องเที่ยว">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="theme.js"></script>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container">
+      <span>📍 1 ถ.บ้านเก่าแพงพวย ต.นางรอง อ.นางรอง จ.บุรีรัมย์ 31110</span>
+      <span>☎ 0-4463-1556, 0-4463-2318</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <div class="brand-mark"><span>นร</span><img src="images/logo.png" alt="โลโก้วิทยาลัยเทคนิคนางรอง" onerror="this.remove()"></div>
+        <div class="brand-text">
+          <strong>วิทยาลัยเทคนิคนางรอง</strong>
+          <span>Nang Rong Technical College</span>
+        </div>
+      </a>
+      <button class="theme-btn" id="themeBtn" type="button" aria-label="เปลี่ยนเป็นโหมดมืด">🌙</button>
+      <button class="menu-btn" aria-label="เปิดเมนู" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
+      <nav class="nav" id="nav">
+        <a href="index.html">รายละเอียด</a>
+        <a href="map.html">แผนที่</a>
+        <a href="contact.html">ข้อมูลติดต่อ</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-banner">
+    <div class="container">
+      <div class="crumbs"><a href="index.html">รายละเอียด</a> › แผนกวิชา</div>
+      <h1>แผนกวิชา</h1>
+      <p>เลือกเรียนตามความถนัด พร้อมสร้างอาชีพได้จริง</p>
+    </div>
+  </div>
+
+  <main>
+    <section>
+      <div class="container">
+
+        <div class="filters" role="group" aria-label="กรองประเภทวิชา">
+          <button class="filter-btn active" data-filter="all">ทั้งหมด</button>
+          <button class="filter-btn" data-filter="industry">อุตสาหกรรม</button>
+          <button class="filter-btn" data-filter="business">บริหารธุรกิจ/พาณิชยกรรม</button>
+          <button class="filter-btn" data-filter="tourism">อุตสาหกรรมท่องเที่ยว</button>
+        </div>
+
+        <div class="grid grid-3">
+
+          <article class="card dept" data-cat="industry" id="auto">
+            <div class="icon">🚗</div>
+            <h3>แผนกวิชาช่างยนต์</h3>
+            <p>เรียนรู้การบำรุงรักษา ซ่อมแซม และวินิจฉัยข้อขัดข้องของเครื่องยนต์และระบบต่าง ๆ ของยานยนต์</p>
+            <span class="tag">อุตสาหกรรม</span>
+          </article>
+
+          <article class="card dept" data-cat="industry" id="machine">
+            <div class="icon">⚙️</div>
+            <h3>แผนกวิชาช่างกลโรงงาน</h3>
+            <p>งานกลึง ไส เจียระไน การเขียนแบบสั่งงานการผลิต และงานผลิตชิ้นส่วนเครื่องจักรกล</p>
+            <span class="tag">อุตสาหกรรม</span>
+          </article>
+
+          <article class="card dept" data-cat="industry" id="weld">
+            <div class="icon">🔥</div>
+            <h3>แผนกวิชาช่างเชื่อมโลหะ</h3>
+            <p>งานเชื่อมและตัดโลหะ งานโครงสร้างเหล็ก และงานประดิษฐ์ที่ใช้กระบวนการเชื่อมชนิดต่าง ๆ</p>
+            <span class="tag">อุตสาหกรรม</span>
+          </article>
+
+          <article class="card dept" data-cat="industry" id="electric">
+            <div class="icon">⚡</div>
+            <h3>แผนกวิชาช่างไฟฟ้ากำลัง</h3>
+            <p>การติดตั้งและซ่อมบำรุงระบบไฟฟ้า เครื่องกลไฟฟ้า และระบบควบคุมในงานอุตสาหกรรม</p>
+            <span class="tag">อุตสาหกรรม</span>
+          </article>
+
+          <article class="card dept" data-cat="industry" id="electronics">
+            <div class="icon">🔌</div>
+            <h3>แผนกวิชาช่างอิเล็กทรอนิกส์</h3>
+            <p>วงจรอิเล็กทรอนิกส์ เครื่องเสียง โทรทัศน์ และระบบควบคุมอัตโนมัติเบื้องต้น</p>
+            <span class="tag">อุตสาหกรรม</span>
+          </article>
+
+          <article class="card dept" data-cat="business" id="it">
+            <div class="icon">💻</div>
+            <h3>แผนกวิชาเทคโนโลยีสารสนเทศ</h3>
+            <p>การใช้งานคอมพิวเตอร์ ระบบเครือข่าย การพัฒนาเว็บ และงานดิจิทัลเพื่อธุรกิจ</p>
+            <span class="tag">บริหารธุรกิจ/พาณิชยกรรม</span>
+          </article>
+
+          <article class="card dept" data-cat="business" id="account">
+            <div class="icon">🧾</div>
+            <h3>แผนกวิชาการบัญชี</h3>
+            <p>การบันทึกบัญชี จัดทำงบการเงิน ภาษี และการใช้โปรแกรมบัญชีสำเร็จรูป</p>
+            <span class="tag">บริหารธุรกิจ/พาณิชยกรรม</span>
+          </article>
+
+          <article class="card dept" data-cat="business" id="marketing">
+            <div class="icon">📣</div>
+            <h3>แผนกวิชาการตลาด</h3>
+            <p>การขาย การส่งเสริมการตลาด การให้บริการลูกค้า และการตลาดออนไลน์</p>
+            <span class="tag">บริหารธุรกิจ/พาณิชยกรรม</span>
+          </article>
+
+          <article class="card dept" data-cat="tourism" id="hotel">
+            <div class="icon">🏨</div>
+            <h3>แผนกวิชาการโรงแรม</h3>
+            <p>งานบริการอาหารและเครื่องดื่ม งานต้อนรับ งานแม่บ้าน และมาตรฐานการบริการวิชาชีพ</p>
+            <span class="tag">อุตสาหกรรมท่องเที่ยว</span>
+          </article>
+
+        </div>
+
+        <p style="text-align:center;color:var(--muted);margin-top:32px;font-size:15px">
+          รายชื่อแผนกวิชาและหลักสูตรที่เปิดสอนอาจเปลี่ยนแปลงในแต่ละปีการศึกษา<br>
+          โปรดสอบถามข้อมูลล่าสุดได้ที่วิทยาลัย โทร 0-4463-1556, 0-4463-2318
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>วิทยาลัยเทคนิคนางรอง</h4>
+          <p>1 ถ.บ้านเก่าแพงพวย ต.นางรอง อ.นางรอง<br>จ.บุรีรัมย์ 31110</p>
+          <p>โทร 0-4463-1556, 0-4463-2318<br>โทรสาร 0-4463-2008</p>
+        </div>
+        <div>
+          <h4>เมนู</h4>
+          <ul>
+            <li><a href="index.html">รายละเอียด</a></li>
+            <li><a href="map.html">แผนที่</a></li>
+            <li><a href="contact.html">ข้อมูลติดต่อ</a></li>
+            <li><a href="departments.html">แผนกวิชา</a></li>
+            <li><a href="about.html">แนะนำวิทยาลัย</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>ลิงก์</h4>
+          <ul>
+            <li><a href="https://my.nrtech.ac.th/" target="_blank" rel="noopener">ระบบสารสนเทศศูนย์กลาง</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copy">© 2026 วิทยาลัยเทคนิคนางรอง</div>
+    </div>
+  </footer>
+
+  <script>
+    const buttons = document.querySelectorAll('.filter-btn');
+    const cards = document.querySelectorAll('.dept');
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        buttons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const f = btn.dataset.filter;
+        cards.forEach(c => c.classList.toggle('hidden', f !== 'all' && c.dataset.cat !== f));
+      });
+    });
+  </script>
+</body>
+</html>

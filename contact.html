@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ข้อมูลติดต่อ | วิทยาลัยเทคนิคนางรอง</title>
+  <meta name="description" content="ข้อมูลติดต่อวิทยาลัยเทคนิคนางรอง ที่อยู่ เบอร์โทร โทรสาร">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="theme.js"></script>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container">
+      <span>📍 1 ถ.บ้านเก่าแพงพวย ต.นางรอง อ.นางรอง จ.บุรีรัมย์ 31110</span>
+      <span>☎ 0-4463-1556, 0-4463-2318</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <!-- โลโก้: ใส่ไฟล์ไว้ที่ images/logo.png (ถ้ายังไม่มี จะแสดงตัวอักษร "นร") -->
+        <div class="brand-mark"><span>นร</span><img src="home.jpg" alt="โลโก้วิทยาลัยเทคนิคนางรอง" onerror="this.remove()"></div>
+        <div class="brand-text">
+          <strong>วิทยาลัยเทคนิคนางรอง</strong>
+          <span>Nang Rong Technical College</span>
+        </div>
+      </a>
+      <button class="theme-btn" id="themeBtn" type="button" aria-label="เปลี่ยนเป็นโหมดมืด">🌙</button>
+      <button class="menu-btn" aria-label="เปิดเมนู" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
+      <nav class="nav" id="nav">
+        <a href="index.html">รายละเอียด</a>
+        <a href="map.html">แผนที่</a>
+        <a href="contact.html" class="active">ข้อมูลติดต่อ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <div class="page-banner">
+      <div class="container">
+        <div class="crumbs"><a href="index.html">รายละเอียด</a> › ข้อมูลติดต่อ</div>
+        <h1>ข้อมูลติดต่อ</h1>
+        <p>สอบถามข้อมูลการรับสมัครและหลักสูตรได้ที่วิทยาลัย</p>
+      </div>
+    </div>
+    <section>
+      <div class="container contact-grid">
+        <div class="card">
+          <ul class="info-list">
+            <li><span class="k">ที่อยู่</span><span>1 ถ.บ้านเก่าแพงพวย ต.นางรอง อ.นางรอง จ.บุรีรัมย์ 31110</span></li>
+            <li><span class="k">โทรศัพท์</span><span><a href="tel:0446631556">0-4463-1556</a>, <a href="tel:0446632318">0-4463-2318</a></span></li>
+            <li><span class="k">โทรสาร</span><span>0-4463-2008</span></li>
+            <li><span class="k">ระบบ</span><span><a href="https://my.nrtech.ac.th/" target="_blank" rel="noopener">my.nrtech.ac.th</a></span></li>
+            <!-- เพิ่มอีเมล / Facebook ได้ตรงนี้ เช่น
+            <li><span class="k">อีเมล</span><span><a href="mailto:you@example.com">you@example.com</a></span></li> -->
+          </ul>
+          <a class="btn btn-primary" href="map.html" style="margin-top:14px">ดูแผนที่</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>วิทยาลัยเทคนิคนางรอง</h4>
+          <p>1 ถ.บ้านเก่าแพงพวย ต.นางรอง อ.นางรอง<br>จ.บุรีรัมย์ 31110</p>
+          <p>โทร 0-4463-1556, 0-4463-2318<br>โทรสาร 0-4463-2008</p>
+        </div>
+        <div>
+          <h4>เมนู</h4>
+          <ul>
+            <li><a href="index.html">รายละเอียด</a></li>
+            <li><a href="map.html">แผนที่</a></li>
+            <li><a href="contact.html">ข้อมูลติดต่อ</a></li>
+            <li><a href="departments.html">แผนกวิชา</a></li>
+            <li><a href="about.html">แนะนำวิทยาลัย</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>ลิงก์</h4>
+          <ul>
+            <li><a href="https://my.nrtech.ac.th/" target="_blank" rel="noopener">ระบบสารสนเทศศูนย์กลาง</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copy">© 2026 วิทยาลัยเทคนิคนางรอง</div>
+    </div>
+  </footer>
+
+</body>
+</html>
