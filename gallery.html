@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>แกลเลอรี่แผนกคอมพิวเตอร์ | วิทยาลัยเทคนิคนางรอง</title>
+  <meta name="description" content="แกลเลอรี่ภาพกิจกรรมและผลงาน แผนกคอมพิวเตอร์ วิทยาลัยเทคนิคนางรอง">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="theme.js"></script>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container">
+      <span>📍 1 ถ.บ้านเก่าแพงพวย ต.นางรอง อ.นางรอง จ.บุรีรัมย์ 31110</span>
+      <span>☎ 0-4463-1556, 0-4463-2318</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <div class="brand-mark"><span>นร</span><img src="roob/home.jpg" alt="โลโก้วิทยาลัยเทคนิคนางรอง" onerror="this.remove()"></div>
+        <div class="brand-text">
+          <strong>วิทยาลัยเทคนิคนางรอง</strong>
+          <span>Nang Rong Technical College</span>
+        </div>
+      </a>
+      <button class="theme-btn" id="themeBtn" type="button" aria-label="เปลี่ยนเป็นโหมดมืด">🌙</button>
+      <button class="menu-btn" aria-label="เปิดเมนู" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
+      <nav class="nav" id="nav">
+        <a href="index.html">รายละเอียด</a>
+        <a href="map.html">แผนที่</a>
+        <a href="contact.html">ข้อมูลติดต่อ</a>
+        <a href="departments.html">แผนกวิชา</a>
+
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-banner">
+      <div class="container">
+        <div class="crumbs"><a href="index.html">รายละเอียด</a> › <a href="departments.html">แผนกวิชา</a> › <a href="computer.html">แผนกคอมพิวเตอร์</a> › แกลเลอรี่</div>
+        <h1>แกลเลอรี่แผนกคอมพิวเตอร์</h1>
+        <p>ภาพกิจกรรม ห้องปฏิบัติการ และผลงานนักเรียน คลิกที่ภาพเพื่อดูภาพเต็ม</p>
+        <a href="computer.html" class="btn btn-ghost" style="margin-top:14px">← กลับหน้าแผนกคอมพิวเตอร์</a>
+      </div>
+    </div>
+
+    <section>
+      <div class="container">
+        <div class="filters" id="filters" role="group" aria-label="กรองหมวดภาพ"></div>
+        <div class="masonry" id="grid"></div>
+        <p class="g-empty" id="empty" hidden>ยังไม่มีรูปในหมวดนี้</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ดูภาพเต็ม -->
+  <div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="ดูภาพเต็ม" hidden>
+    <button class="lb-btn lb-close" id="lbClose" aria-label="ปิด">✕</button>
+    <button class="lb-btn lb-prev" id="lbPrev" aria-label="ภาพก่อนหน้า">‹</button>
+    <figure>
+      <img id="lbImg" alt="">
+      <figcaption id="lbCap"></figcaption>
+    </figure>
+    <button class="lb-btn lb-next" id="lbNext" aria-label="ภาพถัดไป">›</button>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>วิทยาลัยเทคนิคนางรอง</h4>
+          <p>1 ถ.บ้านเก่าแพงพวย ต.นางรอง อ.นางรอง<br>จ.บุรีรัมย์ 31110</p>
+          <p>โทร 0-4463-1556, 0-4463-2318<br>โทรสาร 0-4463-2008</p>
+        </div>
+        <div>
+          <h4>เมนู</h4>
+          <ul>
+            <li><a href="index.html">รายละเอียด</a></li>
+            <li><a href="map.html">แผนที่</a></li>
+            <li><a href="contact.html">ข้อมูลติดต่อ</a></li>
+            <li><a href="departments.html">แผนกวิชา</a></li>
+            <li><a href="computer.html">แผนกคอมพิวเตอร์</a></li>
+            <li><a href="about.html">แนะนำวิทยาลัย</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>ลิงก์</h4>
+          <ul>
+            <li><a href="https://my.nrtech.ac.th/" target="_blank" rel="noopener">ระบบสารสนเทศศูนย์กลาง</a></li>
+            <li><a href="https://web.facebook.com/NrTechNew" target="_blank" rel="noopener">เพจประชาสัมพันธ์วิทยาลัยเทคนิคนางรอง</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copy">© 2026 วิทยาลัยเทคนิคนางรอง</div>
+    </div>
+  </footer>
+
+<script>
+/* =====================================================================
+   วิธีเพิ่มรูปในแกลเลอรี่
+   1) เอาไฟล์รูปไปไว้ในโฟลเดอร์  images/computer-gallery/
+   2) เพิ่มบรรทัดใน PHOTOS ด้านล่าง 1 บรรทัดต่อ 1 รูป
+        { src: 'images/computer-gallery/ชื่อไฟล์.jpg', title: 'คำอธิบายรูป', cat: 'หมวด' },
+   - cat คือชื่อหมวด จะสร้างปุ่มกรองให้อัตโนมัติ (ตั้งชื่อหมวดใหม่ได้เลย)
+   - รูปที่ยังไม่มีไฟล์ จะแสดงกรอบเทาพร้อมชื่อไฟล์ (กดไม่ได้)
+   ===================================================================== */
+var PHOTOS = [
+  { src: 'images/computer-gallery/photo-01.jpg', title: 'กิจกรรมแผนกคอมพิวเตอร์ 1', cat: 'กิจกรรม' },
+  { src: 'images/computer-gallery/photo-02.jpg', title: 'กิจกรรมแผนกคอมพิวเตอร์ 2', cat: 'กิจกรรม' },
+  { src: 'images/computer-gallery/photo-03.jpg', title: 'ห้องปฏิบัติการคอมพิวเตอร์ 1', cat: 'ห้องปฏิบัติการ' },
+  { src: 'images/computer-gallery/photo-04.jpg', title: 'ห้องปฏิบัติการคอมพิวเตอร์ 2', cat: 'ห้องปฏิบัติการ' },
+  { src: 'images/computer-gallery/photo-05.jpg', title: 'ผลงานนักเรียน 1', cat: 'ผลงานนักเรียน' },
+  { src: 'images/computer-gallery/photo-06.jpg', title: 'ผลงานนักเรียน 2', cat: 'ผลงานนักเรียน' }
+];
+
+var grid = document.getElementById('grid'),
+    filters = document.getElementById('filters'),
+    empty = document.getElementById('empty'),
+    lb = document.getElementById('lb'),
+    lbImg = document.getElementById('lbImg'),
+    lbCap = document.getElementById('lbCap'),
+    current = 'ทั้งหมด', shown = [], idx = 0;
+
+function esc(s) { var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+
+/* ปุ่มกรองหมวด */
+var cats = ['ทั้งหมด'];
+PHOTOS.forEach(function (p) { if (cats.indexOf(p.cat) < 0) cats.push(p.cat); });
+cats.forEach(function (c) {
+  var b = document.createElement('button');
+  b.className = 'filter-btn' + (c === current ? ' active' : '');
+  b.type = 'button'; b.textContent = c;
+  b.addEventListener('click', function () {
+    current = c;
+    filters.querySelectorAll('.filter-btn').forEach(function (x) { x.classList.toggle('active', x === b); });
+    render();
+  });
+  filters.appendChild(b);
+});
+if (cats.length < 3) filters.hidden = true;
+
+/* วาดรูป */
+function render() {
+  grid.innerHTML = '';
+  shown = PHOTOS.filter(function (p) { return current === 'ทั้งหมด' || p.cat === current; });
+  empty.hidden = shown.length > 0;
+  shown.forEach(function (p, i) {
+    var el = document.createElement('button');
+    el.type = 'button'; el.className = 'g-item';
+    el.innerHTML = '<img src="' + esc(p.src) + '" alt="' + esc(p.title) + '" loading="lazy">' +
+                   '<span class="cap">' + esc(p.title) + '</span>';
+    var img = el.querySelector('img');
+    img.addEventListener('error', function () {
+      el.className = 'g-item g-ph'; el.disabled = true;
+      el.innerHTML = '<span>📷 ' + esc(p.src.split('/').pop()) + '</span>';
+    });
+    el.addEventListener('click', function () { open(i); });
+    grid.appendChild(el);
+  });
+}
+
+/* ดูภาพเต็ม */
+function open(i) { idx = i; show(); lb.hidden = false; document.body.style.overflow = 'hidden'; document.getElementById('lbClose').focus(); }
+function close() { lb.hidden = true; document.body.style.overflow = ''; }
+function show() {
+  var p = shown[idx]; lbImg.src = p.src; lbImg.alt = p.title;
+  lbCap.textContent = p.title + '  (' + (idx + 1) + '/' + shown.length + ')';
+}
+function step(d) {
+  /* ข้ามช่องที่ยังไม่มีรูป */
+  var tiles = grid.children, n = shown.length, k = idx;
+  for (var t = 0; t < n; t++) {
+    k = (k + d + n) % n;
+    if (!tiles[k].classList.contains('g-ph')) { idx = k; show(); return; }
+  }
+}
+document.getElementById('lbClose').addEventListener('click', close);
+document.getElementById('lbPrev').addEventListener('click', function () { step(-1); });
+document.getElementById('lbNext').addEventListener('click', function () { step(1); });
+lb.addEventListener('click', function (e) { if (e.target === lb) close(); });
+document.addEventListener('keydown', function (e) {
+  if (lb.hidden) return;
+  if (e.key === 'Escape') close();
+  if (e.key === 'ArrowLeft') step(-1);
+  if (e.key === 'ArrowRight') step(1);
+});
+
+render();
+</script>
+</body>
+</html>

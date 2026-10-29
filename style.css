@@ -333,3 +333,16 @@ section { padding: 64px 0; }
 
 /* โลโก้: แสดงเต็มวง ไม่ตัดขอบ */
 .brand-mark img { object-fit: contain; background: #fff; padding: 2px; }
+
+/* ===== ครูผู้สอน ===== */
+.teachers { display: grid; gap: 22px; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); }
+.teacher { text-align: center; padding: 18px 18px 22px; }
+.teacher .photo, .teacher .photo.has-img {
+  aspect-ratio: 3 / 4; display: grid; place-items: center; margin-bottom: 14px; line-height: 1.4;
+}
+.teacher .photo.has-img img {
+  position: absolute; inset: 0; width: 100%; height: 100%; max-height: none; object-fit: contain;
+}
+.teacher h3 { color: var(--navy); font-size: 18px; margin-bottom: 2px; }
+.teacher .role { color: var(--accent-dark); font-weight: 600; font-size: 15px; }
+.teacher .sub { color: var(--muted); font-size: 14px; }

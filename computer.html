@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>แผนกคอมพิวเตอร์ | วิทยาลัยเทคนิคนางรอง</title>
+  <meta name="description" content="แผนกคอมพิวเตอร์ วิทยาลัยเทคนิคนางรอง เรียนรู้ทักษะคอมพิวเตอร์ เครือข่าย การพัฒนาเว็บ และงานดิจิทัล">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="theme.js"></script>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container">
+      <span>📍 1 ถ.บ้านเก่าแพงพวย ต.นางรอง อ.นางรอง จ.บุรีรัมย์ 31110</span>
+      <span>☎ 0-4463-1556, 0-4463-2318</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <div class="brand-mark"><span>นร</span><img src="roob/home.jpg" alt="โลโก้วิทยาลัยเทคนิคนางรอง" onerror="this.remove()"></div>
+        <div class="brand-text">
+          <strong>วิทยาลัยเทคนิคนางรอง</strong>
+          <span>Nang Rong Technical College</span>
+        </div>
+      </a>
+      <button class="theme-btn" id="themeBtn" type="button" aria-label="เปลี่ยนเป็นโหมดมืด">🌙</button>
+      <button class="menu-btn" aria-label="เปิดเมนู" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
+      <nav class="nav" id="nav">
+        <a href="index.html">รายละเอียด</a>
+        <a href="map.html">แผนที่</a>
+        <a href="contact.html">ข้อมูลติดต่อ</a>
+        <a href="departments.html">แผนกวิชา</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-banner">
+      <div class="container">
+        <div class="crumbs"><a href="index.html">รายละเอียด</a> › <a href="departments.html">แผนกวิชา</a> › แผนกคอมพิวเตอร์</div>
+        <h1>แผนกคอมพิวเตอร์</h1>
+        <p>เรียนรู้ทักษะคอมพิวเตอร์ เครือข่าย และงานดิจิทัล เพื่อก้าวสู่อาชีพยุคใหม่</p>
+      </div>
+    </div>
+
+    <!-- รูปหลักของแผนก (ตรงกลางด้านบน): ใส่ไฟล์ไว้ที่ images/computer-hero.jpg -->
+    <section style="padding-bottom:0">
+      <div class="container" style="max-width:900px">
+        <div class="photo" data-label="รูปแผนก: images/computer-hero.jpg">
+          <img src="roob/com.jpg" alt="แผนกคอมพิวเตอร์" onerror="this.remove()">
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container two-col">
+        <div class="prose">
+          <h2>เกี่ยวกับแผนก</h2>
+          <p>แผนกคอมพิวเตอร์ จัดการเรียนการสอนด้านคอมพิวเตอร์และเทคโนโลยีสารสนเทศ เน้นการฝึกปฏิบัติจริงในห้องปฏิบัติการ เพื่อให้ผู้เรียนมีทักษะพร้อมทำงานและศึกษาต่อ</p>
+          <!-- เพิ่มรายละเอียดแผนกตรงนี้ เช่น ชื่อหลักสูตร ระดับ ปวช./ปวส. จำนวนที่รับ คุณสมบัติผู้สมัคร -->
+          <!-- <p>ข้อความเพิ่มเติมของแผนก</p> -->
+
+          <h2 style="margin-top:28px">สิ่งที่จะได้เรียนรู้</h2>
+          <div class="chips">
+            <span class="chip">การใช้โปรแกรมสำนักงาน</span><span class="chip">ระบบเครือข่าย</span>
+            <span class="chip">การพัฒนาเว็บไซต์</span><span class="chip">การเขียนโปรแกรม</span>
+            <span class="chip">ซ่อมบำรุงคอมพิวเตอร์</span><span class="chip">กราฟิกและมัลติมีเดีย</span>
+          </div>
+        </div>
+
+        <aside>
+          <div class="card">
+            <h3 style="margin-bottom:10px">ข้อมูลแผนก</h3>
+            <ul class="info-list">
+              <li><span class="k">ระดับ</span><span>ปวช. / ปวส. </span></li>
+              <li><span class="k">ประเภท</span><span>บริหารธุรกิจ/พาณิชยกรรม</span></li>
+              <li><span class="k">ติดต่อ</span><span><a href="contact.html">ดูข้อมูลติดต่อ</a></span></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+    
+    <section>
+      <div class="container">
+        <div class="section-head">
+          <h2>ครูผู้สอน</h2>
+          <p>คณะครูและบุคลากรแผนกคอมพิวเตอร์</p>
+        </div>
+        <!-- ครูผู้สอน: แก้ชื่อ-นามสกุล ตำแหน่ง และใส่รูปที่ images/teacher-1.jpg ถึง teacher-4.jpg
+             ต้องการเพิ่มครู ให้คัดลอกบล็อก <article class="card teacher">…</article> ต่อท้าย แล้วเปลี่ยนเลขรูป -->
+        <div class="teachers">
+          <article class="card teacher">
+            <div class="photo" data-label="images/teacher-1.jpg"><img src="roob/t1.jpg" alt="ครูคนที่ 1" loading="lazy" onerror="this.remove()"></div>
+            <h3>นายอุดม สติภา</h3>
+            <div class="role">หัวหน้าแผนกวิชาคอมพิวเตอร์</div>
+          </article>
+          <article class="card teacher">
+            <div class="photo" data-label="images/teacher-2.jpg"><img src="roob/t6.jpg" alt="ครูคนที่ 2" loading="lazy" onerror="this.remove()"></div>
+            <h3>นางสาวมยุรี พงษ์อาภา</h3>
+            <div class="role">ครูชำนาญการพิเศษ</div>
+          </article>
+          <article class="card teacher">
+            <div class="photo" data-label="images/teacher-3.jpg"><img src="roob/t2.jpg" alt="ครูคนที่ 3" loading="lazy" onerror="this.remove()"></div>
+            <h3>นางสาวลิตา วรรณตรง</h3>
+            <div class="role">ครูชำนาญการ</div>
+          </article>
+          <article class="card teacher">
+            <div class="photo" data-label="images/teacher-4.jpg"><img src="roob/t3.jpg" alt="ครูคนที่ 4" loading="lazy" onerror="this.remove()"></div>
+            <h3>นางจรัสศรี  ร่มเย็น</h3>
+            <div class="role">ครู</div>
+          </article>
+          <article class="card teacher">
+            <div class="photo" data-label="images/teacher-4.jpg"><img src="roob/t4.jpg" alt="ครูคนที่ 4" loading="lazy" onerror="this.remove()"></div>
+            <h3>นางสาวศิรประภา รอดจากเข็ญ</h3>
+            <div class="role">พนักงานราชการ (ครู)</div>
+          </article>
+          <article class="card teacher">
+            <div class="photo" data-label="images/teacher-4.jpg"><img src="roob/t5.jpg" alt="ครูคนที่ 4" loading="lazy" onerror="this.remove()"></div>
+            <h3>นายชัฏชกริช ต้นสิริธนโสภา</h3>
+            <div class="role">พนักงานราชการ (ครู)</div>
+          </article>
+          <article class="card teacher">
+            <div class="photo" data-label="images/teacher-4.jpg"><img src="roob/t6.jpg" alt="ครูคนที่ 4" loading="lazy" onerror="this.remove()"></div>
+            <h3>นางสาวกิติยาภรณ์  พะเนตรรัมย์</h3>
+            <div class="role">ครูพิเศษสอน</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head">
+          <h2>ภาพกิจกรรมและผลงานนักเรียน</h2>
+          <p>ภาพบรรยากาศการเรียนและผลงานของผู้เรียน</p>
+          <p style="margin-top:10px"><a href="gallery.html" style="color:var(--accent-dark);font-weight:700">ดูแกลเลอรี่ทั้งหมด →</a></p>
+        </div>
+        <!-- ใส่ไฟล์ images/computer-1.jpg ถึง computer-6.jpg
+             ต้องการเพิ่มรูป ให้คัดลอกบล็อก <div class="photo">…</div> ต่อท้ายได้เลย -->
+        <div class="gallery">
+          <div class="photo" data-label="images/computer-1.jpg"><img src="roob/c6.jpg" alt="กิจกรรมแผนกคอมพิวเตอร์ 1" loading="lazy" onerror="this.remove()"></div>
+          <div class="photo" data-label="images/computer-2.jpg"><img src="roob/c2.jpg" alt="กิจกรรมแผนกคอมพิวเตอร์ 2" loading="lazy" onerror="this.remove()"></div>
+          <div class="photo" data-label="images/computer-3.jpg"><img src="roob/c4.jpg" alt="กิจกรรมแผนกคอมพิวเตอร์ 3" loading="lazy" onerror="this.remove()"></div>
+          <div class="photo" data-label="images/computer-4.jpg"><img src="roob/c3.jpg" alt="กิจกรรมแผนกคอมพิวเตอร์ 4" loading="lazy" onerror="this.remove()"></div>
+          <div class="photo" data-label="images/computer-5.jpg"><img src="roob/c1.jpg" alt="กิจกรรมแผนกคอมพิวเตอร์ 5" loading="lazy" onerror="this.remove()"></div>
+          <div class="photo" data-label="images/computer-6.jpg"><img src="roob/c5.jpg" alt="กิจกรรมแผนกคอมพิวเตอร์ 6" loading="lazy" onerror="this.remove()"></div>
+        </div>
+      </div>
+    </section>
+
+    <section style="padding-top:0">
+      <div class="container">
+        <div class="cta">
+          <h2>สนใจเรียนแผนกคอมพิวเตอร์?</h2>
+          <p>สอบถามข้อมูลการรับสมัครได้ที่วิทยาลัย โทร 0-4463-1556, 0-4463-2318</p>
+          <a href="contact.html" class="btn btn-primary">ดูข้อมูลติดต่อ</a>
+          <a href="departments.html" class="btn btn-ghost" style="margin-left:8px">← กลับหน้าแผนกวิชา</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>วิทยาลัยเทคนิคนางรอง</h4>
+          <p>1 ถ.บ้านเก่าแพงพวย ต.นางรอง อ.นางรอง<br>จ.บุรีรัมย์ 31110</p>
+          <p>โทร 0-4463-1556, 0-4463-2318<br>โทรสาร 0-4463-2008</p>
+        </div>
+        <div>
+          <h4>เมนู</h4>
+          <ul>
+            <li><a href="index.html">รายละเอียด</a></li>
+            <li><a href="map.html">แผนที่</a></li>
+            <li><a href="contact.html">ข้อมูลติดต่อ</a></li>
+            <li><a href="departments.html">แผนกวิชา</a></li>
+            <li><a href="computer.html">แผนกคอมพิวเตอร์</a></li>
+            <li><a href="about.html">แนะนำวิทยาลัย</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>ลิงก์</h4>
+          <ul>
+            <li><a href="https://my.nrtech.ac.th/" target="_blank" rel="noopener">ระบบสารสนเทศศูนย์กลาง</a></li>
+            <li><a href="https://web.facebook.com/NrTechNew" target="_blank" rel="noopener">เพจประชาสัมพันธ์วิทยาลัยเทคนิคนางรอง</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copy">© 2026 วิทยาลัยเทคนิคนางรอง</div>
+    </div>
+  </footer>
+
+</body>
+</html>
