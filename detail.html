@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>รายละเอียดสถานที่ | วิทยาลัยเทคนิคนางรอง</title>
+  <meta name="description" content="รายละเอียดสถานที่ภายในวิทยาลัยเทคนิคนางรอง">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="theme.js"></script>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container">
+      <span>📍 1 ถ.บ้านเก่าแพงพวย ต.นางรอง อ.นางรอง จ.บุรีรัมย์ 31110</span>
+      <span>☎ 0-4463-1556, 0-4463-2318</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        <div class="brand-mark"><span>นร</span><img src="roob/home.jpg" alt="โลโก้วิทยาลัยเทคนิคนางรอง" onerror="this.remove()"></div>
+        <div class="brand-text">
+          <strong>วิทยาลัยเทคนิคนางรอง</strong>
+          <span>Nang Rong Technical College</span>
+        </div>
+      </a>
+      <button class="theme-btn" id="themeBtn" type="button" aria-label="เปลี่ยนเป็นโหมดมืด">🌙</button>
+      <button class="menu-btn" aria-label="เปิดเมนู" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
+      <nav class="nav" id="nav">
+        <a href="index.html">รายละเอียด</a>
+        <a href="map.html">แผนที่</a>
+        <a href="contact.html">ข้อมูลติดต่อ</a>
+        <a href="departments.html">แผนกวิชา</a>
+
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-banner">
+      <div class="container">
+        <div class="crumbs"><a href="index.html">รายละเอียด</a> › สถานที่ › รายละเอียด</div>
+        <h1>รายละเอียดสถานที่</h1>
+        <p>ข้อมูล ที่ตั้ง และเวลาเปิดของแต่ละสถานที่</p>
+        <nav class="subnav" aria-label="เมนูสถานที่">
+          <a href="service.html"%%>หมวดหมู่สถานที่</a>
+          <a href="detail.html"% class="active"%>รายละเอียดสถานที่</a>
+          <a href="buildings.html"%%>ทำเนียบอาคาร</a>
+          <a href="facilities.html"%%>สิ่งอำนวยความสะดวก</a>
+        </nav>
+      </div>
+    </div>
+
+    <section>
+      <div class="container">
+        <div class="stack">
+        <article class="card place" id="director-office">
+          <div class="detail-grid">
+            <div>
+              <span class="tag" style="margin:0 0 8px">งานบริหาร</span>
+              <h2>อาคารอำนวยการ</h2>
+              <p>ศูนย์กลางการบริหารงานของวิทยาลัย</p>
+            </div>
+            <div class="photo" data-label="images/places/director-office.jpg"><img src="roob/d1.jpg" alt="ห้องผู้อำนวยการและฝ่ายบริหาร" loading="lazy" onerror="this.remove()"></div>
+          </div>
+        </article>
+        <article class="card place" id="computer-lab">
+          <div class="detail-grid">
+            <div>
+              <span class="tag" style="margin:0 0 8px">ห้องเรียนและปฏิบัติการ</span>
+              <h2>ห้องปฏิบัติการคอมพิวเตอร์</h2>
+              <p>ห้องฝึกปฏิบัติของแผนกคอมพิวเตอร์</p>
+            </div>
+            <div class="photo" data-label="images/places/computer-lab.jpg"><img src="roob/d2.jpg" alt="ห้องปฏิบัติการคอมพิวเตอร์" loading="lazy" onerror="this.remove()"></div>
+          </div>
+        </article>
+        <article class="card place" id="library">
+          <div class="detail-grid">
+            <div>
+              <span class="tag" style="margin:0 0 8px">งานบริหาร</span>
+              <h2>ห้องประชุม</h2>
+              <p>ประชุมแผนการสอน</p>
+            </div>
+            <div class="photo" data-label="images/places/library.jpg"><img src="roob/d3.jpg" alt="ห้องสมุด" loading="lazy" onerror="this.remove()"></div>
+          </div>
+        </article>
+        <article class="card place" id="auto-shop">
+          <div class="detail-grid">
+            <div>
+              <span class="tag" style="margin:0 0 8px">โรงฝึกงาน</span>
+              <h2>โรงฝึกงานช่างยนต์</h2>
+              <p>พื้นที่ฝึกซ่อมบำรุงยานยนต์</p>
+            </div>
+            <div class="photo" data-label="images/places/auto-shop.jpg"><img src="roob/d4.jpg" alt="โรงฝึกงานช่างยนต์" loading="lazy" onerror="this.remove()"></div>
+          </div>
+        </article>
+        <article class="card place" id="canteen">
+          <div class="detail-grid">
+            <div>
+              <span class="tag" style="margin:0 0 8px">บริการนักเรียน</span>
+              <h2>โดม</h2>
+              <p>ประชุมและทำกิจกรรม</p>
+            </div>
+            <div class="photo" data-label="images/places/canteen.jpg"><img src="roob/d5.jpg" alt="โรงอาหาร" loading="lazy" onerror="this.remove()"></div>
+          </div>
+        </article>
+        <article class="card place" id="first-aid">
+          <div class="detail-grid">
+            <div>
+              <span class="tag" style="margin:0 0 8px">โรงฝึกงาน</span>
+              <h2>โรงฝึกงานช่างเชื่อม</h2>
+              <p>เชื่อมโลหะ</p>
+            </div>
+            <div class="photo" data-label="images/places/first-aid.jpg"><img src="roob/d6.jpg" alt="ห้องพยาบาล" loading="lazy" onerror="this.remove()"></div>
+          </div>
+        </article>
+        <article class="card place" id="hall">
+          <div class="detail-grid">
+            <div>
+              <span class="tag" style="margin:0 0 8px">กิจกรรมและกีฬา</span>
+              <h2>หอประชุม</h2>
+            </div>
+            <div class="photo" data-label="images/places/hall.jpg"><img src="roob/d7.jpg" alt="หอประชุม" loading="lazy" onerror="this.remove()"></div>
+          </div>
+        </article>
+        <article class="card place" id="sports-field">
+          <div class="detail-grid">
+            <div>
+              <span class="tag" style="margin:0 0 8px">กิจกรรมและกีฬา</span>
+              <h2>สนามกีฬา</h2>
+              <p>พื้นที่ออกกำลังกายและเล่นกีฬา</p>
+            </div>
+            <div class="photo" data-label="images/places/sports-field.jpg"><img src="roob/d8.jpg" alt="สนามกีฬา" loading="lazy" onerror="this.remove()"></div>
+          </div>
+        </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>วิทยาลัยเทคนิคนางรอง</h4>
+          <p>1 ถ.บ้านเก่าแพงพวย ต.นางรอง อ.นางรอง<br>จ.บุรีรัมย์ 31110</p>
+          <p>โทร 0-4463-1556, 0-4463-2318<br>โทรสาร 0-4463-2008</p>
+        </div>
+        <div>
+          <h4>เมนู</h4>
+          <ul>
+            <li><a href="index.html">รายละเอียด</a></li>
+            <li><a href="map.html">แผนที่</a></li>
+            <li><a href="contact.html">ข้อมูลติดต่อ</a></li>
+            <li><a href="departments.html">แผนกวิชา</a></li>
+            <li><a href="gallery.html">แกลเลอรี่ภาพทั้งหมด</a></li>
+            <li><a href="about.html">แนะนำวิทยาลัย</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>สถานที่</h4>
+          <ul>
+            <li><a href="service.html">หมวดหมู่สถานที่</a></li>
+            <li><a href="detail.html">รายละเอียดสถานที่</a></li>
+            <li><a href="buildings.html">ทำเนียบอาคาร</a></li>
+            <li><a href="facilities.html">สิ่งอำนวยความสะดวก</a></li>
+          </ul>
+          <h4 style="margin-top:14px">ลิงก์</h4>
+          <ul>
+          <ul>
+            <li><a href="https://my.nrtech.ac.th/" target="_blank" rel="noopener">ระบบสารสนเทศศูนย์กลาง</a></li>
+            <li><a href="https://web.facebook.com/NrTechNew" target="_blank" rel="noopener">เพจประชาสัมพันธ์วิทยาลัยเทคนิคนางรอง</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copy">© 2026 วิทยาลัยเทคนิคนางรอง</div>
+    </div>
+  </footer>
+
+</body>
+</html>
